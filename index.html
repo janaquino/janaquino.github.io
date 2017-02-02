@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+
+<body>
+<div id="mainContent">
+<p id="helloText">
+	<h1>
+		THE KYLE JENSEN FAN CLUB
+	</h1>HELLO CPSC213 STUDENTS<br>
+THIS IS OUR WEBPAGE IN WORSHIP OF KYLE JENSEN</p>
+<button id="clickButton" class="buttonStyle">click me</button>
+<img src="https://lh3.googleusercontent.com/prrnKnjeAKx6cXtJE5hC4IsrhJTXsAUh7NXOjVeDOe8oXAdhnq5czx9t14l2cQqfPwoa1chGuHeb7bo=w2492-h1384">
+<img src ="https://lh3.googleusercontent.com/5y59VswZLfix1QfwuYdgGCjm5y5AKk9clmoiJ45QIMt5pTP03VOD_wlX4lCgXDj7B0PMDhq8XZfQSYQ=w2492-h1384">
+<img src = "https://lh5.googleusercontent.com/r8RgmJZnwK6jP4ig-ks8SarLlBZDOpow88ZQiAPTxJNmQdz4XQMrKJA-yOEVASiLpxU_zs1_eamsLkM=w2492-h1384">
+<img src ="https://lh3.googleusercontent.com/x6MD75PBqkDxdfrvj4hIxlFJ1DkgkFLyQ_v1Pu5jaiezeWuhBEMhrVhbMW3Al3UJxHSILPQaf_ivOAU=w2492-h1384">
+</div>
+<script> 
+var myButton = document.getElementById("clickButton");
+var myText = document.getElementById("helloText");
+
+myButton.addEventListener('click', doSomething, false)
+
+function doSomething() {
+	myText.textContent = "hello, world!";
+}
+</script>
+
+</body>
+</html>
