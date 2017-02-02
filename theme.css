@@ -1,0 +1,10 @@
+#mainContent {
+	font-family: "Comic Sans MS", sans-serif;
+	color: white; 
+	font-size: xx-large;
+	font-weight: bold;
+	background-image: url(https://lh6.googleusercontent.com/FNmOXEOiyQ3I3ydfWjLqZNUo6jairQH3stACUhc9q9mP9kk96SbuNnk0-1uCRm7aW5uTZiNeZPyVm0Y=w2492-h1384);
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+}
