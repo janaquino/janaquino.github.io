@@ -3,7 +3,7 @@
 	color: red; 
 	font-size: xx-large;
 	font-weight: bold;
-	background-image: url(kyle_jensen.jpg);
+	background-image: url("kyle_jensen.jpg");
 	border-radius: 4px;
 	padding: 10px;
 	text-align: center;
