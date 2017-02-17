@@ -4,40 +4,32 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="theme.css">
-<script src="script.js"></script>
-</head>
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type='text/javascript' src='script.js'></script>
+ </head>
 
 <body>
 <div id="mySidenav" class="sidenav">
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
+	<a href="index.html">Home</a>
+  <a href="about.html">About Me</a>
+  <a href="resume.html">Resume</a>
+  <a href="#">Thoughts</a>
   <a href="#">Contact</a>
 </div>
 
 
-<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-<div id="main">
-  ...
-</div>
-
 <div id="mainContent">
-<p id="helloText">
-	<h1>
-		THE KYLE JENSEN FAN CLUB
-	</h1>HELLO CPSC213 STUDENTS<br>
-THIS IS OUR WEBPAGE IN WORSHIP OF KYLE JENSEN</p>
+	<h1 id ="pageTitle">
+		Jan-alfred Aquino
+	</h1>
+	<div id="main-separator"></div>
+	<p>
+		Professional | Ambitious | Curious
+	</p>
 </div>
-<script> 
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
 
-myButton.addEventListener('click', doSomething, false)
-
-function doSomething() {
-	myText.textContent = "hello, world!";
-}
-</script>
+<div></div>
 
 </body>
 </html>

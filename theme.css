@@ -1,13 +1,46 @@
+#pageContent {
+	font-family: "Palanquin", sans-serif;
+	src: url("palanquin/palanquin-light.ttf");
+	color: #240a05; 
+	padding: 20px;
+	margin-right: 160px;
+	margin-top: 30px;
+	opacity: 0;
+
+}
+
+#pageTitle {
+	font-family: "Palanquin Bold", sans-serif;
+	src: url("palanquin/palanquindark-bold.ttf");
+	font-size: 42px;
+	margin-bottom: -10;
+	color: #90492e; 
+	line-height: 10px;
+}
+
 #mainContent {
 	font-family: "Palanquin", sans-serif;
 	src: url("palanquin/palanquin-regular.ttf");
-	color: #90492e; 
-	font-size: xx-large;
-	font-weight: bold;
-	border-radius: 4px;
-	padding: 10px;
+	color: #240a05; 
+	padding: 200px;
 	text-align: center;
 	margin-right: 160px;
+	opacity: 0;
+}
+
+.line-separator {
+	height:1px;
+	width: 50%;
+	background:#717171;
+	border-bottom:1px solid #313030;
+}
+
+#main-separator {
+	height:1px;
+	width: 50%;
+	margin: auto;
+	background:#717171;
+	border-bottom:1px solid #313030;
 }
 
 body {
@@ -26,7 +59,7 @@ body {
     padding-top: 200px; /* Place content 60px from the top */
     padding-right: 10px;
     background-color: #240a05;
-	opacity: 0.8;
+	opacity: 1;
 }
 
 
@@ -34,17 +67,36 @@ body {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
+    font-size: 12px;
+    font-family: "Palanquin", sans-serif;
+	src: url("palanquin/palanquin-regular.ttf");
+    color: #bdada1;
+    display: block;
+    transition: 0.3s
+}
+
+.contentWrapper {
+	margin-top: 20px;
+}
+
+.resumeHeading a {
+    text-decoration: none;
     font-size: 25px;
     font-family: "Palanquin", sans-serif;
 	src: url("palanquin/palanquin-regular.ttf");
-    color: #d9d6d2;
+    color: #8e6f55;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
+    text-decoration: underline
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
+}
+
+.resumeHeading a:hover, .offcanvas a:focus{
+    color: #bdada1;
 }
 
 
