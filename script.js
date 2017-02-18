@@ -22,7 +22,7 @@ $(document).ready(function(){
         $('#skillsContent').slideToggle('slow');
     });
     $("#snapchat").click(function(){
-        $('#snapchatInfo').show();
+        $('#snapchatInfo').slideToggle('slow');
     });
 });
 

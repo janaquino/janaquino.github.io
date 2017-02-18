@@ -14,32 +14,37 @@
 	src: url("palanquin/palanquindark-bold.ttf");
 	font-size: 42px;
 	margin-bottom: -10;
-	color: #90492e; 
+	color: #1a202a; 
 	margin-bottom: 10px;
 }
 
 #mainTitle {
-	font-family: "Palanquin", serif;
+	font-family: "Palanquin", sans-serif;
 	src: url("palanquin/palanquindark-bold.ttf");
 	font-size: 56px;
 	margin-bottom: -10;
-	color: #90492e; 
+	color: #1a202a; 
 	margin-bottom: 10px;
 }
 
 #snapchatInfo {
-	margin-bottom: 200px;
+	position: static;
+	top: 0;
+	left: 30%;
+	text-align: center;
+	margin-right: 160px;
+	display: none
 }
 
 #mainContent {
+	position: static;
 	font-family: "Palanquin", sans-serif;
 	src: url("palanquin/palanquin-regular.ttf");
 	color: #240a05; 
 	text-align: center;
 	margin-right: 160px;
-	opacity: 0;
 	z-index: 200;
-	margin-top: 400px;
+	opacity: 0;
 }
 
 #firstWord {
@@ -88,9 +93,9 @@
 }
 
 body {
-	background-image: url("bg.jpg");
+	background-image: url("bg1.jpg");
 	background-repeat: no-repeat;
-    background-size: 1300px;
+    background-size: 1500px;
     background-attachment: fixed;
 
 }
@@ -106,7 +111,7 @@ body {
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 200px; /* Place content 60px from the top */
     padding-right: 10px;
-    background-color: #240a05;
+    background-color: #95acca;
 	opacity: 1;
 }
 
@@ -118,7 +123,7 @@ body {
     font-size: 12px;
     font-family: "Palanquin", sans-serif;
 	src: url("palanquin/palanquin-regular.ttf");
-    color: #bdada1;
+    color: #2a3549;
     display: block;
     transition: 0.3s
 }
@@ -144,7 +149,7 @@ body {
     font-size: 25px;
     font-family: "Palanquin", sans-serif;
 	src: url("palanquin/palanquin-regular.ttf");
-    color: #8e6f55;
+    color: #2a3549;
     display: block;
     transition: 0.3s;
     text-decoration: underline
@@ -152,11 +157,11 @@ body {
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: #f5f8fd;
 }
 
 .resumeHeading a:hover, .offcanvas a:focus{
-    color: #bdada1;
+    color: #95acca;
 }
 
 
