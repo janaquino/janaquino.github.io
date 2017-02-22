@@ -37,8 +37,13 @@
 }
 
 #snapchatInfo {
+	background-image: url("snapInfo.png");
+	border-radius: 25px;
+	width: 280px;
+	height: 330px;
 	position: static;
-	display: none
+	display: none;
+	background-size: 280px;
 }
 
 #mainContent {
