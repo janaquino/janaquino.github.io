@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Forum|Montserrat|Open+Sans|Roboto+Mono|Vollkorn');
-
+html {
+    height: 100vh; /* set viewport constraint */
+    min-height: 100%; /* enforce height */
+}
 
 #pageContent {
 	font-family: 'EB Garamond', serif;
@@ -102,7 +105,7 @@
 body {
 	background-image: url("bg1.jpg");
 	background-repeat: no-repeat;
-    background-size: 1500px;
+    background-size: cover;
     height: 100%;
     background-attachment: fixed;
 
@@ -181,6 +184,7 @@ body {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    body{background-size: cover}
 }
 
 .typed-cursor{
