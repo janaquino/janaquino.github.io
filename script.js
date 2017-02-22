@@ -1,9 +1,11 @@
 /* Set the width of the side navigation to 250px */
 $(document).ready(function(){
-    $('#mainContent').fadeTo(3000, 1, function(){
+    $('#mainContent').fadeTo(3400, 1, function(){
         $('#firstWord').fadeTo(1000, 1, function(){
            $('#secondWord').fadeTo(1000, 1, function(){
-                $('#thirdWord').fadeTo(1000, 1);
+                $('#thirdWord').fadeTo(1000, 1, function(){
+                    $(".socialMedia").fadeTo(1000, 1);
+                });
             }); 
         });
     });

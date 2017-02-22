@@ -19,12 +19,16 @@
 }
 
 #mainTitle {
-	font-family: "Palanquin", sans-serif;
-	src: url("palanquin/palanquindark-bold.ttf");
+	font-family: 'Montserrat', sans-serif;
 	font-size: 56px;
+	font-weight: bold;
 	margin-bottom: -10;
-	color: #1a202a; 
+	color: #292f35; 
 	margin-bottom: 10px;
+	text-align: left;
+}
+.socialMedia {
+	opacity: 0;
 }
 
 #snapchatInfo {
@@ -37,14 +41,16 @@
 }
 
 #mainContent {
-	position: static;
+	position: fixed;
 	font-family: "Palanquin", sans-serif;
 	src: url("palanquin/palanquin-regular.ttf");
 	color: #240a05; 
-	text-align: center;
-	margin-right: 160px;
+	text-align: right;
+	margin-right: 165px;
 	z-index: 200;
-	opacity: 0;
+	opacity: 1;
+	bottom: 0;
+	right: 0;
 }
 
 #firstWord {
@@ -175,4 +181,27 @@ body {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+
+.typed-cursor{
+	font-size: 56px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
