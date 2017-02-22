@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Forum|Montserrat|Open+Sans|Roboto+Mono|Vollkorn');
+
+
 #pageContent {
-	font-family: "Palanquin", sans-serif;
-	src: url("palanquin/palanquin-light.ttf");
+	font-family: 'EB Garamond', serif;
 	color: #240a05; 
 	padding: 20px;
 	margin-right: 160px;
@@ -14,8 +16,7 @@
 
 
 #pageTitle {
-	font-family: "Palanquin Bold", sans-serif;
-	src: url("palanquin/palanquindark-bold.ttf");
+	font-family: 'Vollkorn', serif;
 	font-size: 42px;
 	margin-bottom: -10;
 	color: #1a202a; 
@@ -42,8 +43,7 @@
 
 #mainContent {
 	position: fixed;
-	font-family: "Palanquin", sans-serif;
-	src: url("palanquin/palanquin-regular.ttf");
+	font-family: 'EB Garamond', serif;
 	color: #240a05; 
 	text-align: right;
 	margin-right: 165px;
@@ -65,10 +65,6 @@
 
 #thirdWord {
 	display: inline;
-	font-family: "Palanquin Bold", sans-serif;
-	src: url("palanquin/palanquindark-bold.ttf");
-	font-style: italic;
-	font-weight: bolder;
 	opacity: 0;
 }
 
@@ -128,8 +124,7 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 12px;
-    font-family: "Palanquin", sans-serif;
-	src: url("palanquin/palanquin-regular.ttf");
+	font-family: 'Montserrat', sans-serif;
     color: #2a3549;
     display: block;
     transition: 0.3s
@@ -154,8 +149,7 @@ body {
 .resumeHeading a {
     text-decoration: none;
     font-size: 25px;
-    font-family: "Palanquin", sans-serif;
-	src: url("palanquin/palanquin-regular.ttf");
+	font-family: 'Vollkorn', serif;
     color: #2a3549;
     display: block;
     transition: 0.3s;
@@ -185,6 +179,7 @@ body {
 }
 
 .typed-cursor{
+	font-family: 'Montserrat', sans-serif;
 	font-size: 56px;
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
