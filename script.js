@@ -5,6 +5,8 @@ $(document).ready(function(){
            $('#secondWord').fadeTo(1000, 1, function(){
                 $('#thirdWord').fadeTo(1000, 1, function(){
                     $(".socialMedia").fadeTo(1000, 1);
+                    $(".showLast").fadeTo(1000, 1);
+
                 });
             }); 
         });

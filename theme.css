@@ -76,6 +76,11 @@ html {
 	opacity: 0;
 }
 
+.showLast {
+	display: inline;
+	opacity: 0;
+}
+
 .line-separator {
 	height:1px;
 	width: 50%;
@@ -137,17 +142,48 @@ body {
     display: block;
     transition: 0.3s
 }
+#objective {
+}
+
+
+#objectiveContent {
+	width: 80%;
+}
+
+#education {
+}
+
+#experience {
+}
+
+.clear {clear: both;}
+
+#skills {
+}
 
 #educationContent {
 	display: none;
+
 }
 
 #experienceContent {
 	display: none;
+
+
 }
 
 #skillsContent {
-	display: none;
+	display: none;	
+
+}
+ul {
+	margin-top: 0px;
+	margin-left: -5px;
+	
+}
+
+.resumeWrapper{
+	position: relative;
 }
 
 .contentWrapper {
@@ -163,6 +199,41 @@ body {
     transition: 0.3s;
     text-decoration: underline
 }
+
+a {
+    text-decoration: none;
+    color: #2a3549;
+    transition: 0.3s;
+    text-decoration: underline
+}
+
+
+
+
+.resumeSub {
+    text-decoration: none;
+    font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+    color: #2a3549;
+    float: right;
+    width: 80%;
+}
+
+.resumeInfo {
+	float: right;
+	width: 80%;
+}
+
+.resumeDate {
+    text-decoration: none;
+    font-size: 16px;
+	font-family: 'EB Garamond', serif;
+	color: #2a3549;
+	float: left;
+	width: 15%;
+}
+
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus{
